@@ -1,0 +1,33 @@
+.home {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  min-width: 400px;
+  height: 300px;
+  gap: 0.2rem;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.home__link-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.home__link {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(110, 109, 196);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
